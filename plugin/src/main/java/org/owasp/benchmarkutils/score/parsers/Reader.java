@@ -84,6 +84,7 @@ public abstract class Reader {
                 new ShiftLeftReader(),
                 new ShiftLeftScanReader(),
                 new SnappyTickReader(),
+                new SnykReader(), // added by 0xff
                 new SonarQubeJsonReader(),
                 new SonarQubeReader(),
                 new SourceMeterReader(),
